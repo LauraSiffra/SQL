@@ -1,0 +1,21 @@
+--Create a Resin store database
+
+CREATE TABLE Resin (ID INTEGER, Name TEXT, Statistic TEXT, Aisle INTEGER, Price INTEGER);
+INSERT INTO Resin VALUES (1, "Hardener", "Value has increased", 1, "20.00");
+INSERT INTO Resin VALUES (2, "Resin", "Value has increased", 2, "20.00");
+INSERT INTO Resin VALUES (3, "Popsicle Sticks", "Value has increased", 3, "5.00");
+INSERT INTO Resin VALUES (4, "Silicone Cups", "Value has increased", 4, "6.00");
+INSERT INTO Resin VALUES (5, "Hot Water Bath Container", "Value has increased", 5, "10.00");
+INSERT INTO Resin VALUES (6, "Dry Flowers", "Value has increased", 6, "7.00");
+INSERT into resin VALUES (7, "Maca Powder Blue", "Value has increased", 7, "2.00");
+INSERT into resin VALUES (8, "Maca Powder Yellow", "Value has increased", 8, "2.00");
+INSERT into resin VALUES (9, "Heat Gun", "Value has increased", 9, "15.00");
+INSERT into resin VALUES (10, "Maca Powder Red", "Value has increased", 10, "2.00");
+INSERT into resin VALUES (11, "Maca Powder Green", "Value has increased", 11, "2.00");
+INSERT into resin VALUES (12, "Maca Powder Pink", "Value has increased", 12, "2.00");
+INSERT into resin VALUES (13, "Maca Powder Gold", "Value has increased", 13, "2.00");
+INSERT into resin VALUES (14, "Maca Powder Silver", "Value has increased", 14, "2.00");
+INSERT into resin VALUES (15, "Maca Powder White", "Value has increased", 15, "2.00");
+
+--display the database ordered by price 
+SELECT * FROM Resin ORDER BY price asc;
